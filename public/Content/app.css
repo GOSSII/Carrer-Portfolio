@@ -1,1 +1,12 @@
 /* Custome CSS goes here */
+.jumbotron{
+    padding-top: 0px;
+    background-color: #FFF
+}
+.main{
+    padding: 2% 5% 5% 5%;
+    text-align: justify;
+}
+.card{
+    background-color: #fee151;
+}
