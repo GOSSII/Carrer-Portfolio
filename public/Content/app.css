@@ -1,4 +1,5 @@
 /* Custome CSS goes here */
+/* Global CSS */
 .jumbotron{
     padding-top: 0px;
     background-color: #FFF
@@ -7,6 +8,8 @@
     padding: 2% 5% 5% 5%;
     text-align: justify;
 }
+
+/* Service Page CSS */
 .card{
     background-color: #fee151;
 }
@@ -16,4 +19,18 @@
 }
 .service-info{
     padding-left: 40px;
+}
+
+/* Project Page CSS */
+.project .card{
+    background-color: #FFF;
+}
+.project .card-header{
+    background-color: #fee151;
+}
+.project img{
+    width: 100%;
+}
+.backToProject{
+    float: right;
 }

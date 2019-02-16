@@ -14,9 +14,9 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
-router.get('/project', function(req, res, next) {
-  res.render('project', { title: 'project' });
-});
+// router.get('/project', function(req, res, next) {
+//   res.render('projects/index', { title: 'project' });
+// });
 
 router.get('/services', function(req, res, next) {
   res.render('services', { title: 'services' });
