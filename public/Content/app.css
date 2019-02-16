@@ -10,3 +10,10 @@
 .card{
     background-color: #fee151;
 }
+.card .fa, .card .fab, .card .fas{
+    font-size: 30px;
+    float: left;
+}
+.service-info{
+    padding-left: 40px;
+}
