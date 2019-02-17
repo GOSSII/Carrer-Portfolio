@@ -1,4 +1,4 @@
-<% include ./partials/header.ejs %>
+<% include ../partials/header.ejs %>
 
 <!-- Content Start -->
 <div class="wrapper">
@@ -35,9 +35,10 @@
                             </div>
                 </div>
             </div>
+            
             <div class="col-md-7">
-                
-                <form action="#" method="post" accept-charset="utf-8">
+                    
+                <form  method="POST" action="/contact/postcontact" accept-charset="utf-8">
                     <div class="modal-body" style="padding: 5px;">
                           <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
@@ -66,16 +67,16 @@
                         <div class="panel-footer" style="margin-bottom:-14px;">
                             <input type="submit" class="btn btn-md btn-success" value="Send"/>
                             
-                            
+                           
                         </div>
                     </div>
                 </div>
-
+            </form>
         </div>
     </div>
 </div>
 <!-- Content End -->
 
-<% include ./partials/footer.ejs %>
+<% include ../partials/footer.ejs %>
 
 
